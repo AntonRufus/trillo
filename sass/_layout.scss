@@ -7,11 +7,12 @@
   min-height: 40rem;
 }
 
+// the header section
 .header {
-  font-size: 1.6rem;
+  font-size: inherit;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
 
   display: flex;
   justify-content: space-between;
@@ -22,6 +23,7 @@
   display: flex;
 }
 
+// the navigation section
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%;
@@ -31,6 +33,7 @@
   justify-content: space-between;
 }
 
+// the hotel overview section
 .hotel-view {
   background-color: #fff;
   flex: 1;
