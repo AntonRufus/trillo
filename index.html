@@ -61,10 +61,46 @@
 
         <!-- sidebar -->
         <nav class="sidebar">
-            <div>HOTEL</div>
-            <div>FLIGHT</div>
-            <div>CAR RENTAL</div>
-            <div>TOURS</div>
+            <ul class="side-nav">
+                <li class="side-nav__item side-nav__item--active">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-home"></use>
+                            <span>HOTEL</span>
+                        </svg>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                            <span>FLIGHT</span>
+                        </svg>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-key"></use>
+                            <span>CAR RENTAL</span>
+                        </svg>
+                    </a></li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-map"></use>
+                            <span>TOURS</span>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="legal">
+                &copy; 2021 by <a href="https://github.com/AntonRufus" class="footer__link">Anton Zhyvotovskyi</a> for
+                my
+                <a class="footer__link" href="https://github.com/AntonRufus/trillo">CSS and Sass learning
+                    project.</a>&nbsp;
+            </div>
         </nav>
 
         <!-- content -->
