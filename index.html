@@ -62,6 +62,8 @@
         <!-- sidebar -->
         <nav class="sidebar">
             <ul class="side-nav">
+
+                <!-- nav item -->
                 <li class="side-nav__item side-nav__item--active">
                     <a href="#" class="side-nav__link">
                         <svg class="side-nav__icon">
@@ -70,6 +72,8 @@
                         </svg>
                     </a>
                 </li>
+
+                <!-- nav item -->
                 <li class="side-nav__item">
                     <a href="#" class="side-nav__link">
                         <svg class="side-nav__icon">
@@ -78,13 +82,18 @@
                         </svg>
                     </a>
                 </li>
+
+                <!-- nav item -->
                 <li class="side-nav__item">
                     <a href="#" class="side-nav__link">
                         <svg class="side-nav__icon">
                             <use xlink:href="img/sprite.svg#icon-key"></use>
                             <span>CAR RENTAL</span>
                         </svg>
-                    </a></li>
+                    </a>
+                </li>
+
+                <!-- nav item -->
                 <li class="side-nav__item">
                     <a href="#" class="side-nav__link">
                         <svg class="side-nav__icon">
@@ -95,6 +104,7 @@
                 </li>
             </ul>
 
+            <!-- legal text -->
             <div class="legal">
                 &copy; 2021 by <a href="https://github.com/AntonRufus" class="footer__link">Anton Zhyvotovskyi</a> for
                 my
@@ -105,7 +115,66 @@
 
         <!-- content -->
         <main class="hotel-view">
-            hotel-view
+            <!-- gallery -->
+            <div class="gallery">
+
+                <!-- gallery item -->
+                <figure class="gallery__item">
+                    <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                </figure>
+
+                <!-- gallery item -->
+                <figure class="gallery__item">
+                    <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                </figure>
+
+                <!-- gallery item -->
+                <figure class="gallery__item">
+                    <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                </figure>
+            </div>
+
+            <!-- overview -->
+            <div class="overview">
+
+                <!-- overview -->
+                <h1 class="overview__heading">
+                    Hotel Las Palmas
+                </h1>
+
+                <!-- stars -->
+                <div class="overview__stars">
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                </div>
+
+                <!-- location -->
+                <div class="overview__location">
+                    <svg class="overview__icon-location">
+                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                    </svg>
+                    <button class="btn-inline">Albufeira, Portugal</button>
+                </div>
+
+                <!-- rating -->
+                <div class="overview__rating">
+                    <div class="overview__rating-average">8.6</div>
+                    <div class="overview__rating-count">429 votes</div>
+                </div>
+            </div>
         </main>
     </div>
 </div>

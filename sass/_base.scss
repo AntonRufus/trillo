@@ -48,6 +48,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.7;
+  font-size: 1.6rem;
 
   background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
   background-size: cover;
@@ -130,26 +131,4 @@ body {
 .u-margin-top-big         {  margin-top: 8rem !important;       }
 
 .u-margin-top-huge        {  margin-top: 10rem !important;      }
-*/
-
-/*
-$grid-width:                          114rem;
-$gutter-vertical:                     8rem;
-$gutter-vertical-small:               6rem;
-$gutter-horizontal:                   6rem;
-
-$shadow-black-50:                     rgba($color-black, .5);
-$shadow-black-40:                     rgba($color-black, .4);
-$shadow-black-25:                     rgba($color-black, .25);
-$shadow-black-20:                     rgba($color-black, .2);
-$shadow-black-15:                     rgba($color-black, .15);
-$shadow-primary-light-10:             rgba($color-primary-light, .1);
-
-$to-right-bottom-secondary:           to right bottom, $color-secondary-light, $color-secondary-dark;
-$to-right-bottom-secondary-85:        to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85);
-
-$deg105-white-90-to50:                105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 50%, transparent 50%;
-$deg105-white-90-to65:                105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 65%, transparent 65%;
-$deg105-white-90-to100:               105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 100%, transparent 100%;
-$deg120-transparent-50-white-50:      120deg, transparent 0%, transparent 50%, $color-white 50%;
 */
