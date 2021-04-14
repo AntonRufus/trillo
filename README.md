@@ -4,7 +4,7 @@
 
 #### https://antonrufus.github.io/trillo/
 
-## Tech stach:
+## Tech stack:
 
   ### HTML,
 
